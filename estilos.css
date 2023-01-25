@@ -1,0 +1,35 @@
+.padre {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.titulo {
+	display: inline-block;
+	color: orange;
+	font-size: 50px;
+	font-family: 'Bebas Neue', cursive;
+}
+.lista {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+.general {
+	padding: 0 10px;
+	transition: all 1s;
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+.general:hover{
+	background-color: orange;
+	border-radius: 5px;
+	cursor: pointer;
+}

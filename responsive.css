@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px){
+	.padre{
+		flex-direction: column;
+		width: 100%;
+	}
+	.titulo {
+		text-align: center;
+	}
+	.lista {
+		flex-wrap: wrap;
+		padding-left: 0px;
+		justify-content: space-between;
+	}
+}
